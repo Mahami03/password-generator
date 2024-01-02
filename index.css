@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit';
+}
+body{
+    color: white;
+    background: #97BC62;
+    background-image: url("images/passwordavatar.png");
+    background-size: cover;
+}
+.container{
+    margin: 10%;
+    width: 90%;
+    max-width: 700px;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: white;
+    padding: 25px 25px;
+    border-radius: 10px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 0px 0px 2px black;
+}
+.title span{
+    font-size: 50px;
+    font-weight: 400;
+    color: #2C5F2D;
+    border-bottom: 3px solid #2C5F2D;
+    padding-bottom: 5px;
+}
+#password-el{
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+}
+#copy-avatar{
+    width: 40px;
+    cursor: pointer;
+}
+.btn{
+    width: 30%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: #2C5F2D;
+    color: white;
+    font-size: 20px;
+    font-weight: 350;
+    padding: 15px 25px;
+}
+.btn-img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}

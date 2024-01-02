@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Generate <br><span> Password</span></h1>
+        <div class="input-box">
+            <input type="text" id="password-el" placeholder="Password">
+            <img src="images/copyicon.jpg" alt="CopyIcon" id="copy-avatar" onclick="copyPassword()">
+        </div>
+        <button class="btn" onclick="generatePassword()">
+            <img class="btn-img" src="images/generate.png" alt="GeneratingPassword"> 
+            Generate Password
+        </button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
